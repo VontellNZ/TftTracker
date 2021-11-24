@@ -1,12 +1,12 @@
 using System;
 using System.Threading.Tasks;
-using TftTracker.Models;
+using TftTracker.Data.Entities;
 
 namespace TftTracker.Api
 {
     public class SummonerV1Processor : ISummonerProcessor
     {
-        public async Task<SummonerModel> LoadSummoner(string summonerName)
+        public async Task<Summoner> LoadSummoner(string summonerName)
         {
             string url = $"oc1.api.riotgames.com/tft/summoner/v1/summoners/by-name/{summonerName}"; //Will need logic for grabbing the region
             using (HttpClient httpClient = new HttpClient())
@@ -14,7 +14,7 @@ namespace TftTracker.Api
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    SummonerModel summoner = await response.Content.ReadAsAsync<SummonerModel>();
+                    Summoner summoner = await response.Content.ReadAsAsync<Summoner>();
 
                     return summoner;
                 }

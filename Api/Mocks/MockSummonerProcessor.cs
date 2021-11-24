@@ -1,12 +1,12 @@
-using TftTracker.Models;
+using TftTracker.Data.Entities;
 
 namespace TftTracker.Api
 {
     public class MockSummonerProcessor : ISummonerProcessor
     {
-        public Task<SummonerModel> LoadSummoner(string summonerName)
+        public Task<Summoner> LoadSummoner(string summonerName)
         {
-            SummonerModel summoner = new SummonerModel();
+            Summoner summoner = new Summoner();
             return Task.FromResult(summoner);
         }
     }
