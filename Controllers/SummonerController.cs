@@ -5,11 +5,9 @@ namespace TftTracker.Controllers
 {
     public class SummonerController : Controller
     {
-        // 
-        // GET: /Summoner/
-        public string Index()
+        public IActionResult Index()
         {
-            return "Only you can hear me summoner...";
+            return View();
         }
     }
 }
