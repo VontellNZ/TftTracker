@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {}
+    "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {}
   },
   "projects": {
-    "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {
+    "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
+        "projectUniqueName": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
         "projectName": "TftTracker",
-        "projectPath": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
+        "projectPath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
         "packagesPath": "C:\\Users\\Vonte\\.nuget\\packages\\",
-        "outputPath": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\obj\\",
+        "outputPath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
