@@ -1,7 +1,15 @@
+using TftTracker.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+if (builder.Environment.IsDevelopment())
+    builder.Services.AddDbContext<TftContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+else
+    builder.Services.AddDbContext<TftContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
