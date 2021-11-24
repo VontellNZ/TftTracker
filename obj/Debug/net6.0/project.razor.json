@@ -16308,11 +16308,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
