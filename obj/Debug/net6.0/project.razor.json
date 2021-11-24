@@ -16326,6 +16326,11 @@
       "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\Home\\Summoner.cshtml",
+      "TargetPath": "Views\\Home\\Summoner.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
