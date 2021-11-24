@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {}
+    "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {}
   },
   "projects": {
-    "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {
+    "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
+        "projectUniqueName": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
         "projectName": "TftTracker",
-        "projectPath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
+        "projectPath": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\TftTracker.csproj",
         "packagesPath": "C:\\Users\\Vonte\\.nuget\\packages\\",
-        "outputPath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\obj\\",
+        "outputPath": "D:\\Other\\Code\\C#\\Projects\\TftTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

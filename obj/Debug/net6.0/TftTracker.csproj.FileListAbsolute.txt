@@ -24,3 +24,7 @@ D:\Other\Code\C#\Projects\TftTracker\obj\Debug\net6.0\TftTracker.dll
 D:\Other\Code\C#\Projects\TftTracker\obj\Debug\net6.0\ref\TftTracker.dll
 D:\Other\Code\C#\Projects\TftTracker\obj\Debug\net6.0\TftTracker.pdb
 D:\Other\Code\C#\Projects\TftTracker\obj\Debug\net6.0\TftTracker.genruntimeconfig.cache
+D:\Other\Code\C#\Projects\TftTracker\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Other\Code\C#\Projects\TftTracker\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Other\Code\C#\Projects\TftTracker\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Other\Code\C#\Projects\TftTracker\obj\Debug\net6.0\TftTracker.csproj.CopyComplete
