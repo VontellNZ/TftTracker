@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\Summoner\\Details.cshtml",
+      "TargetPath": "Views\\Summoner\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Other\\Code\\C#\\Projects\\TftTracker\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
