@@ -1,0 +1,41 @@
+@model Summoner
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Summoner</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.accountId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.accountId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.summonerLevel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.summonerLevel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.revisionDate)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var revisionDatTime = DateTimeOffset.FromUnixTimeSeconds(Model.revisionDate);
+            }
+            @Html.DisplayFor(model => revisionDatTime.Date)
+        </dd>
+    </dl>
+</div>

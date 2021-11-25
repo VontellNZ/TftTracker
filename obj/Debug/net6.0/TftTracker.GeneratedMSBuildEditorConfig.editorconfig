@@ -8,37 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TftTracker
 build_property.RootNamespace = TftTracker
-build_property.ProjectDir = d:\Other\Code\C#\Projects\TftTracker\
+build_property.ProjectDir = D:\Other\Code\C#\Projects\TftTracker\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Other\Code\C#\Projects\TftTracker
+build_property.MSBuildProjectDirectory = D:\Other\Code\C#\Projects\TftTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/Home/Index.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/Shared/Error.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/Summoner/Index.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Summoner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Summoner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VtbW9uZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/_ViewImports.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/_ViewStart.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Other/Code/C\#/Projects/TftTracker/Views/Shared/_Layout.cshtml]
+[D:/Other/Code/C\#/Projects/TftTracker/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-as24zt3vqw
