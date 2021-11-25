@@ -1,8 +1,38 @@
+@model IEnumerable<Summoner>
+
 @{
     ViewData["Title"] = "Summoner";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Nyes</h1>
-    @ViewData["Test"]
+    <h1 class="display-4">Summoners</h1>
 </div>
+<table class="table">
+    <thead>
+        <th>
+            @Html.DisplayNameFor(model => model.accountId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.summonerLevel)
+        </th>
+    </thead>
+    <tbody>
+        @foreach (var summoner in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => summoner.accountId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => summoner.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => summoner.summonerLevel)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
