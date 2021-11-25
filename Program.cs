@@ -16,7 +16,7 @@ else
 
 var app = builder.Build();
 
-//Seed the DB with dummy data when provided with "/seed"
+//Seed the DB with dummy data
 using (var scope = app.Services.CreateScope())
 {
     var seeder = scope.ServiceProvider.GetService<TftSeeder>();
