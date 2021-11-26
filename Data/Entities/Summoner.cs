@@ -14,6 +14,8 @@ namespace TftTracker.Data.Entities
         public string name { get; set; }
         public string id { get; set; }
         public string puuid { get; set; }
+
+        [Display(Name = "Summoner Level")]
         public long summonerLevel { get; set; }
     }
 }
