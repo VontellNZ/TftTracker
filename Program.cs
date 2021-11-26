@@ -1,3 +1,4 @@
+using TftTracker.Api;
 using TftTracker.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddTransient<TftSeeder>();
+if (builder.Environment.IsDevelopment())
+    builder.Services.AddTransient<ISummonerProcessor, MockSummonerProcessor>();
+else
+    builder.Services.AddTransient<ISummonerProcessor, SummonerProcessor>();
 
 //Setup DBContext
 if (builder.Environment.IsDevelopment())

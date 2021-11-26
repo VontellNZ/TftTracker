@@ -4,7 +4,7 @@ using TftTracker.Data.Entities;
 
 namespace TftTracker.Api
 {
-    public class SummonerV1Processor : ISummonerProcessor
+    public class SummonerProcessor : ISummonerProcessor
     {
         public async Task<Summoner> LoadSummoner(string summonerName)
         {
