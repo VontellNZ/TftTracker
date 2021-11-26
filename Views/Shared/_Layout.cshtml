@@ -27,6 +27,13 @@
                         </li>
                     </ul>
                 </div>
+
+                <form asp-controller="Summoner" asp-action="Details" method="get">
+                    <p>
+                        <input type="text" name="Name" placeholder="Enter Summoner Name"/>
+                        <input type="submit" class="btn btn-success" value="Search"/>
+                    </p>
+                </form>
             </div>
         </nav>
     </header>

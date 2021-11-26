@@ -13,21 +13,21 @@ namespace TftTracker.Controllers
             _context = context;
         }
 
-        //GET: Movies
+        //GET: Summoner
         public async Task<IActionResult> Index()
         {
            return View(await _context.Summoners.ToListAsync());
         }
 
-        // GET: Movies/Details
-        public async Task<IActionResult> Details(string id)
+        //GET: Summoner/Details/{name}
+        public async Task<IActionResult> Details(string name)
         {
-            if (id == null)
+            if (name == null)
                 return NotFound();
-
-            var summoner = await _context.Summoners.FirstOrDefaultAsync(s => s.accountId == id);
-            if (summoner == null)
-            return NotFound();
+            
+            var summoner = await _context.Summoners.FirstOrDefaultAsync(s => s.name.ToLower().Equals(name.ToLower()));
+             if (summoner == null) //This is where we will hit Riot's API if we don't find summoner locally
+                return NotFound();
 
             return View(summoner);
         }
