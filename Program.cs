@@ -1,3 +1,4 @@
+using TftTracker.Api;
 using TftTracker.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddTransient<TftSeeder>();
+if (builder.Environment.IsDevelopment())
+    builder.Services.AddTransient<MockSummonerProcessor>();
+else
+    builder.Services.AddTransient<SummonerProcessor>();
 
 //Setup DBContext
 if (builder.Environment.IsDevelopment())
@@ -37,11 +42,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "summoner",
-    defaults: new { controller = "Summoner", action = "Details" },
-    pattern: "{controller}/{action}/{name}");
 
 app.MapControllerRoute(
     name: "default",
