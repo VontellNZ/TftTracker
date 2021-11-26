@@ -20,9 +20,10 @@ namespace TftTracker.Api
             if (String.IsNullOrWhiteSpace(summonerName))
                 return null;
 
-            var summoners = _context.Summoners.Select(s => s).ToList();
+            var summoners = _context.Summoners.ToList();
             var summoner = new Summoner{
                 accountId = NextId(summoners, s => Int32.Parse(s.accountId)),
+                profileIconId = new Random().Next(1, 9),
                 revisionDate = DateTimeOffset.Now.ToUnixTimeSeconds(),
                 name = summonerName,
                 id = NextId(summoners, s => Int32.Parse(s.id)),
