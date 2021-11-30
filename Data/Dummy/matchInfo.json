@@ -1,0 +1,12 @@
+[
+    {
+        "Id":1,
+        "MatchId":"48585e45-ba59-4a13-909b-f67ca55e1974",
+        "GameDateTime":1638261625,
+        "GameLength":69,
+        "GameVariation":"nyes",
+        "GameVersion":"Why is this a string?",
+        "QueueId":1090,
+        "TftSetNumber":6
+    }
+]
