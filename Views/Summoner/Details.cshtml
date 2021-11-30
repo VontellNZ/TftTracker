@@ -11,31 +11,31 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.accountId)
+            @Html.DisplayNameFor(model => model.AccountId)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.accountId)
+            @Html.DisplayFor(model => model.AccountId)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.name)
+            @Html.DisplayNameFor(model => model.Name)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.name)
+            @Html.DisplayFor(model => model.Name)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.summonerLevel)
+            @Html.DisplayNameFor(model => model.SummonerLevel)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.summonerLevel)
+            @Html.DisplayFor(model => model.SummonerLevel)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.revisionDate)
+            @Html.DisplayNameFor(model => model.RevisionDate)
         </dt>
         <dd class="col-sm-10">
             @{
-                var revisionDatTime = DateTimeOffset.FromUnixTimeSeconds(Model.revisionDate);
+                var revisionDateTime = DateTimeOffset.FromUnixTimeSeconds(Model.RevisionDate);
             }
-            @Html.DisplayFor(model => revisionDatTime.Date)
+            @Html.DisplayFor(model => revisionDateTime.Date)
         </dd>
     </dl>
 </div>
