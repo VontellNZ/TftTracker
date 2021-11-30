@@ -28,7 +28,7 @@ namespace TftTracker.Controllers
             if (name == null)
                 return NotFound();
             
-            var summoner = await _context.Summoners.FirstOrDefaultAsync(s => s.name.ToLower().Equals(name.ToLower()));
+            var summoner = await _context.Summoners.FirstOrDefaultAsync(s => s.Name.ToLower().Equals(name.ToLower()));
             if (summoner == null)
             {
                 summoner = await _summonerProcessor.LoadSummoner(name);

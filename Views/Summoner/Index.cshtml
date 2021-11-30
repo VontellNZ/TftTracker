@@ -10,13 +10,13 @@
 <table class="table">
     <thead>
         <th>
-            @Html.DisplayNameFor(model => model.accountId)
+            @Html.DisplayNameFor(model => model.AccountId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.name)
+            @Html.DisplayNameFor(model => model.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.summonerLevel)
+            @Html.DisplayNameFor(model => model.SummonerLevel)
         </th>
         <th></th>
     </thead>
@@ -25,16 +25,16 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => summoner.accountId)
+                    @Html.DisplayFor(modelItem => summoner.AccountId)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => summoner.name)
+                    @Html.DisplayFor(modelItem => summoner.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => summoner.summonerLevel)
+                    @Html.DisplayFor(modelItem => summoner.SummonerLevel)
                 </td>
                 <td>
-                    <a asp-action="Details" asp-route-name="@summoner.name">Details</a>
+                    <a asp-action="Details" asp-route-name="@summoner.Name">Details</a>
                 </td>
             </tr>
         }
