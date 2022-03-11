@@ -36,6 +36,33 @@
     "SummonerLevel": 288
   },
   {
+    "AccountId": "005",
+    "ProfileIconId": 5,
+    "RevisionDate": 1638265256,
+    "Name": "Weed Mode",
+    "Id": "005",
+    "Puuid": "092227321308384750896489968069600523635510844685102118287193812696459201427621",
+    "SummonerLevel": 169
+  },
+  {
+    "AccountId": "006",
+    "ProfileIconId": 4,
+    "RevisionDate": 1637681853,
+    "Name": "Insprac",
+    "Id": "006",
+    "Puuid": "456926350420425281935752938630402765267895217933423546578213631820283390490146",
+    "SummonerLevel": 288
+  },
+  {
+    "AccountId": "007",
+    "ProfileIconId": 4,
+    "RevisionDate": 1637681853,
+    "Name": "Teemo Bot",
+    "Id": "004",
+    "Puuid": "897926350420425281935752938630402765267895217933423546578213631820283390490146",
+    "SummonerLevel": 288
+  },
+  {
     "AccountId": "420",
     "ProfileIconId": 420,
     "RevisionDate": 1637509420,
