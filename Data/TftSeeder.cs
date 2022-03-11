@@ -1,5 +1,4 @@
-using System.Text.Json;
-using TftTracker.Data.Entities;
+using TftTracker.Data.Logic;
 
 namespace TftTracker.Data
 {
@@ -19,16 +18,14 @@ namespace TftTracker.Data
             //Make sure DB exists
             _context.Database.EnsureCreated();
 
-            if (!_context.Summoners.Any())
-            {
-                //Create sample data
-                var filePath = Path.Combine(_environment.ContentRootPath, "Data/summoners.json");
-                var json = File.ReadAllText(filePath);
-                var summoners = JsonSerializer.Deserialize<IEnumerable<Summoner>>(json);
+            //Create sample data
+            _context.Summoners.SeedTable("Data/Dummy/summoners.json", _environment);
+            _context.Matches.SeedTable("Data/Dummy/matches.json", _environment);
+            _context.MatchInfo.SeedTable("Data/Dummy/matchInfo.json", _environment);
+            // SeedTable(context.Matches, "Data/Dummy/matchMetadata.json", environment);
+            // SeedTable(context.Matches, "Data/Dummy/participants.json", environment);
 
-                _context.Summoners.AddRange(summoners);
-                _context.SaveChanges();
-            }
+            _context.SaveChanges();
         }
     }
 }
